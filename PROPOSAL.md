@@ -1,227 +1,249 @@
-# AstraPay Flow-SDK: Predictive Embedded Finance and AI Business Advisor Pada Platform POS Pihak Ketiga untuk Akselerasi Keberlanjutan UMKM
+# PROPOSAL IDE ASTRAPAY HACKATHON 2026
+
+## AstraPay Flow-SDK: Predictive Embedded Finance and AI Business Advisor Pada Platform POS Pihak Ketiga untuk Akselerasi Keberlanjutan UMKM
 
 ---
 
-## 👥 Tim Penyusun
-*   **Thoriq Abdurrohman Taqy** - Telkom University, Bandung
-*   **Grace Jessica** - Telkom University, Bandung
-*   **Tahun**: 2026
+**Anggota:**
+- Thoriq Abdurrohman Taqy
+- Grace Jessica
+
+**TELKOM UNIVERSITY**
+BANDUNG, 2026
+
+---
+
+## DAFTAR ISI
+
+- [BAB 1 — RUMUSAN MASALAH](#bab-1-rumusan-masalah)
+- [BAB 2 — SOLUSI ASTRAPAY FLOW ECOSYSTEM](#bab-2-solusi-astrapay-flow-ecosystem)
+- [BAB 3 — TARGET USER](#bab-3-target-user)
+- [BAB 4 — BUSINESS IMPACT](#bab-4-business-impact)
 
 ---
 
 ## BAB 1: RUMUSAN MASALAH
 
-### 1.1 Latar Belakang & Validasi Lapangan
-Usaha Mikro, Kecil, dan Menengah (UMKM) berkontribusi sebesar **61% terhadap Produk Domestik Baju (PDB) Indonesia**. Saat ini, lebih dari 30 juta UMKM sudah mulai menggunakan teknologi digital. Namun, pemanfaatan digitalisasi ini sebagian besar baru sebatas alat transaksi kasir (seperti QRIS statis) dan belum menyentuh perbaikan tata kelola keuangan bisnis secara fundamental.
-
-Berdasarkan hasil wawancara mendalam dengan **10 UMKM di sekitar kawasan kampus Telkom University (Bojongsoang)**, ditemukan tiga masalah kritis nyata di lapangan yang menghambat pertumbuhan mereka.
+Usaha Mikro, Kecil, dan Menengah (UMKM) berkontribusi sebesar 61% terhadap Produk Domestik Bruto (PDB) Indonesia. Saat ini, lebih dari 30 juta UMKM sudah mulai menggunakan teknologi digital. Namun, di lapangan, pemanfaatan digitalisasi ini sebagian besar baru sebatas alat untuk menerima pembayaran, seperti kepemilikan QRIS. Sistem ini belum menyentuh perbaikan cara mengelola keuangan bisnis itu sendiri. Berdasarkan hasil wawancara dengan 10 UMKM di sekitar kampus Telkom University (Bojongsoang), ditemukan masalah nyata terkait pengelolaan uang dan modal yang membuat usaha mereka sulit berkembang.
 
 ---
 
-### 1.2 Empathy Map
-Empathy Map berikut menggambarkan apa yang dikatakan, dipikirkan, dilakukan, dan dirasakan oleh pemilik warung tradisional di kawasan Bojongsoang:
+### Empathy Map
 
-| **SAYS (Apa yang Dikatakan)** | **THINKS (Apa yang Dipikirkan)** |
+Empathy Map ini dibuat berdasarkan hasil wawancara untuk mengetahui apa yang dikatakan, dipikirkan, dilakukan, dan dirasakan oleh pemilik warung tradisional di lapangan:
+
+| **SAYS** | **THINKS** |
 | :--- | :--- |
-| • "Aplikasi kasir digital terlalu rumit dan membuang waktu saat melayani antrean mahasiswa."<br>• "Lebih praktis transfer manual ke rekening pribadi saja."<br>• "Pembeli sering mengeluh karena harus membayar biaya admin tambahan." | • "Bagaimana saya bisa tahu untung bersih kalau uang jualan dan uang harian selalu bercampur setiap hari?"<br>• "Saya ingin mengajukan pinjaman modal ke bank, tetapi syarat dokumen pembukuannya sangat rumit." |
-| **DOES (Apa yang Dilakukan)** | **FEELS (Apa yang Dirasakan)** |
-| • Mencampur uang hasil jualan harian dengan uang kebutuhan rumah tangga di laci kas yang sama.<br>• Melayani pembeli secepat mungkin dengan tangan basah/berminyak setelah memasak.<br>• Tidak mendaftar akun merchant resmi karena bingung dengan proses administrasi yang berbelit-belit. | • **Lelah**: Kelelahan fisik mengelola warung sendiri dan pusing menghitung kembalian uang tunai di jam sibuk.<br>• **Khawatir**: Takut modal usaha diam-diam habis terpakai untuk kebutuhan sehari-hari tanpa disadari. |
+| "Aplikasi kasir digital terlalu rumit dan membuang waktu saat melayani antrean mahasiswa." "Lebih praktis transfer manual ke rekening pribadi saja." "Pembeli sering mengeluh karena harus membayar biaya admin tambahan." | "Bagaimana bisa tahu untung bersih kalau uang jualan dan uang harian selalu bercampur setiap hari?" "Ingin mengajukan pinjaman modal ke bank, tetapi syarat dokumen pembukuannya rumit." |
+| **DOES** | **FEELS** |
+| Mencampur uang hasil jualan harian dengan uang kebutuhan rumah tangga di laci kas yang sama. Melayani pembeli secepat mungkin dengan tangan yang basah atau berminyak setelah memasak. Tidak mendaftar akun merchant resmi karena bingung dengan proses administrasinya. | **Lelah**: Kelelahan fisik karena mengelola warung sendiri dan pusing menghitung kembalian uang tunai di jam sibuk. **Khawatir**: Takut kalau modal usaha diam-diam habis terpakai untuk kebutuhan sehari-hari tanpa disadari. |
 
 ---
 
-### 1.3 Problem Statement
-> **[User]** Pemilik warung makan tradisional di kawasan kampus yang mengelola usahanya sendiri,
-> **[Need]** membutuhkan sistem pencatatan keuangan dan transaksi digital yang cepat, otomatis, dan tidak mengganggu kecepatan pelayanan konsumen,
-> **[Insight]** karena mereka sadar mencampur uang pribadi dan uang usaha merusak kelangsungan bisnis dan mempersulit akses modal resmi, namun enggan menggunakan aplikasi kasir konvensional karena dinilai rumit dan menyita waktu di jam sibuk.
+### Problem Statement
+
+> **USER (Pengguna):** Pemilik warung makan tradisional di kawasan kampus yang mengelola usahanya sendiri.
+>
+> **NEED (Kebutuhan):** Sistem pencatatan keuangan dan transaksi digital yang cepat, otomatis, dan tidak mengganggu pelayanan konsumen.
+>
+> **INSIGHT (Wawasan):** Mereka tahu bahwa mencampur uang pribadi dan uang usaha bisa merusak bisnis dan mempersulit akses modal resmi. Namun, mereka enggan menggunakan aplikasi kasir karena dinilai rumit dan menyita waktu.
 
 ---
 
-### 1.4 Data Validasi Pendukung (Root-Cause Analysis)
+### Data Validasi Pendukung
 
-#### A. Uang Usaha & Pribadi Bercampur (*Mixed-Wallet Syndrome*)
-*   **Data Primer**: Hasil wawancara dengan pemilik *Warteg Meriah, Warteg Mulya (2 Cabang), Warteg Podom, Warteg Alwi*, dan *Laundry Permata* membuktikan mereka mencampur seluruh uang pribadi dengan omzet harian. Satu-satunya merchant yang sudah tertib menggunakan POS digital terpisah di kluster ini hanyalah *Jus BMC*.
-*   **Data Sekunder**: Laporan Kementerian Koperasi & UMKM RI menyatakan **69.5% pelaku UMKM di Indonesia masih unbankable** karena kendala ketiadaan laporan pembukuan usaha yang rapi.
-*   **Data Tersier**: Statistik nasional menunjukkan rendahnya mobilitas vertikal UMKM di Indonesia, di mana sekitar **97% pelaku usaha tetap tertahan di level mikro** akibat tata kelola bisnis dan arus kas yang kurang terstruktur.
+#### A. Uang Usaha dan Uang Pribadi Bercampur (*Mixed-Wallet Syndrome*)
+
+Pelaku usaha mikro kesulitan mendapat modal dari lembaga resmi karena tidak memiliki catatan keuangan yang rapi.
+
+- **Data Primer (Kawasan Telkom):** Wawancara dengan pemilik Warteg Meriah, Warteg Mulya (2 Cabang), Warteg Podom, Warteg Alwi, dan Laundry Permata menunjukkan bahwa mereka mencampur uang pribadi dengan omzet harian. Akibatnya, mereka tidak mengetahui pasti keuntungan bersih dan kesulitan merencanakan perkembangan bisnis. Cuma Jus BMC yang sudah menggunakan sistem kasir resmi.
+- **Data Sekunder:** Laporan Kementerian Koperasi dan UMKM RI menyatakan 69,5% pelaku UMKM di Indonesia belum bisa mengakses layanan bank (unbankable) karena kendala pembukuan.
+- **Data Tersier:** Statistik nasional menunjukkan rendahnya mobilitas vertikal UMKM di Indonesia, di mana sekitar 97% pelaku usaha tetap tertahan di level mikro akibat tata kelola bisnis dan pengelolaan arus kas yang kurang terstruktur.
 
 #### B. Biaya Administrasi Tambahan (*Payment Friction*)
-*   **Data Primer**: Di *Warung Padang Mahkota*, konsumen nontunai dipaksa melakukan transfer manual ke e-wallet DANA pribadi pemilik warung untuk menghindari biaya merchant resmi. Hal ini memicu biaya admin transaksi sebesar **Rp2.500 per transaksi** jika dikirim dari bank konvensional berbeda.
-*   **Data Sekunder**: Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) oleh OJK menyoroti adanya *gap* lebar antara kepemilikan alat bayar digital dengan pemahaman cara menggunakannya secara efisien.
-*   **Data Tersier**: Riset Katadata Insight Center (KIC) menyebutkan biaya admin Rp2.500 menjadi salah satu alasan psikologis terbesar pedagang kecil menolak pembayaran nontunai resmi.
 
-#### C. Data Transaksi Kasir Terkunci (*Isolated POS Data*)
-*   **Data Primer**: Segmen UMKM modern di Bojongsoang seperti *Rolun Coffee, Diagram Coffee*, dan *GROI* sudah menggunakan aplikasi kasir (POS) pihak ketiga seperti *Notain* dan *Majoo*. Data riwayat penjualan yang merekam ribuan transaksi per bulan tersimpan pasif di server POS pihak ketiga tanpa nilai tambah finansial bagi pemilik usaha.
-*   **Data Sekunder**: Laporan *e-Conomy SEA (Google, Temasek, Bain)* menyoroti adanya *credit gap* yang masif pada UMKM karena status *underbanked*. Laporan menegaskan data transaksi digital alternatif adalah kunci utama penilaian kelayakan modal otomatis (*automated credit scoring*).
-*   **Data Tersier**: Laporan *PwC Indonesia FinTech Lending Whitepaper* menyoroti adopsi sistem *Alternative Credit Scoring* berbasis data digital dapat memitigasi risiko gagal bayar pada sektor UMKM secara terukur.
+Pemilik usaha enggan menggunakan platform resmi karena rumit, sehingga memicu metode transaksi manual yang merugikan pembeli.
+
+- **Data Primer (Kawasan Telkom):** Di Warung Padang Mahkota, konsumen nontunai terpaksa melakukan transfer manual ke e-wallet DANA pribadi pemilik warung. Cara ini membuat salah satu pihak terkena biaya admin Rp2.500 per transaksi jika dikirim dari bank konvensional.
+- **Data Sekunder:** Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) oleh OJK menunjukkan adanya jarak antara kepemilikan alat bayar dengan pemahaman cara menggunakannya secara efisien.
+- **Data Tersier:** Riset Katadata Insight Center (KIC) menyebutkan akumulasi biaya admin Rp2.500 menjadi salah satu alasan pedagang kecil enggan beralih ke nontunai.
+
+#### C. Data Transaksi Kasir Terunci (*Isolated POS Data* — Segmen Modern)
+
+Kelompok usaha modern sudah menggunakan kasir digital, tetapi datanya terkunci di pihak ketiga dan belum bisa dimanfaatkan untuk memajukan bisnis.
+
+- **Data Primer (Kawasan Telkom):** Kafe seperti Rolun Coffee, Diagram Coffee, dan GROI sudah memakai aplikasi kasir (POS) pihak ketiga seperti Notain dan Majoo dengan metode QRIS CPM. Sistem ini merekam ribuan transaksi setiap bulan, namun data tersebut hanya tersimpan pasif di server pihak ketiga. Data tidak terhubung ke lembaga keuangan, sehingga proses pengajuan modal untuk buka cabang tetap harus diurus manual dan lambat.
+- **Data Sekunder:** Studi Google, Temasek, & Bain & Company dalam laporan e-Conomy SEA menyoroti adanya kesenjangan pendanaan (credit gap) yang besar pada sektor UMKM karena mayoritas pelaku usaha masih berstatus underbanked. Laporan tersebut menegaskan bahwa pemanfaatan data alternatif seperti riwayat transaksi digital adalah kunci utama untuk melakukan penilaian kelayakan modal otomatis (automated credit scoring) yang belum terjamah instrumen bank konvensional.
+- **Data Tersier:** Laporan PwC Indonesia FinTech Lending Whitepaper menyoroti bahwa adopsi sistem Alternative Credit Scoring berbasis data digital dapat memitigasi risiko gagal bayar pada sektor UMKM. Namun, belum terserapnya data dari aplikasi kasir independen ke dalam infrastruktur penilaian lembaga keuangan membuat banyak UMKM tetap dinilai berisiko tinggi.
 
 ---
 
 ## BAB 2: SOLUSI ASTRAPAY FLOW ECOSYSTEM
 
-AstraPay Flow menghadirkan **Dual-Channel Framework** (Pendekatan Dua Jalur) untuk menghapus kerumitan teknologi di warung mikro tradisional, sekaligus membuka akses data pada usaha menengah modern tanpa membebani biaya merchant.
-
-```
-                  ┌─────────────────────────────────────────┐
-                  │          AstraPay Flow Engine           │
-                  └────────────────────┬────────────────────┘
-                                       │
-                ┌──────────────────────┴──────────────────────┐
-                ▼                                             ▼
-     [Jalur 1: AstraPay Merchant]                  [Jalur 2: AstraPay Flow-SDK]
-     - Merchant Mikro Tradisional                  - Merchant Menengah Modern
-     - Pendaftaran Kilat via Agen                  - Integrasi Ringan ke POS Eksis
-     - Astra-Voice Widget (Tombol Suara)           - Jembatan Data QRIS CPM (Real-Time)
-     - Pemisahan Uang Otomatis (Bank Saqu)         - Penilaian Kredit Otomatis
-```
-
-### 2.1 Dua Jalur Integrasi (Dual-Channel Framework)
-
-#### 🚀 Jalur 1: Aplikasi AstraPay Merchant (UMKM Mikro Tradisional)
-1.  **Pendaftaran Kilat via Agen (Zero-Friction Onboarding)**: Pendaftaran dibantu langsung oleh surveyor/agen lapangan Astra Financial menggunakan fitur OCR KTP. Akun QRIS merchant aktif kurang dari 5 menit tanpa membebani merchant dengan biaya pendaftaran.
-2.  **Tombol Suara Melayang (Astra-Voice Floating Widget)**: Memanfaatkan mikrofon ponsel Android. Pedagang cukup mengetuk tombol melayang di layar kasir lalu berucap secara alami:
-    > *"Astra, paket ayam telur dadar es teh, 22 ribu cash, uangnya 50 ribu."*
-    Sistem otomatis mencatat transaksi ke sistem pembukuan dan menyuarakan kembalian:
-    > *"Dicatat Bos, kembalian 28 ribu."*
-3.  **Pemisahan Uang Otomatis**: Dana QRIS otomatis dialirkan langsung ke rekening bisnis mitra di **Bank Saqu (Astra Group)** secara terpisah dari dompet pribadi pemilik.
-
-#### 🔌 Jalur 2: AstraPay Flow-SDK (UMKM Menengah Modern)
-1.  **Embedded Finance via SDK**: AstraPay tidak membuat aplikasi kasir tandingan baru. Sebaliknya, kami menyediakan SDK ringan yang diintegrasikan langsung ke platform kasir digital (POS) pihak ketiga eksis (*Notain, Majoo, Moka POS*, dsb).
-2.  **Jembatan Data QRIS CPM (Customer Presented Mode)**: Saat transaksi QRIS CPM dipindai, SDK mengirimkan salinan data transaksi secara real-time ke *data lake* AstraPay untuk dianalisis sebagai alternatif credit scoring bagi FIFGROUP.
+Sebagai solusi untuk mengatasi hambatan penggunaan teknologi digital pada 10 UMKM di Bojongsoang, kami menghadirkan **AstraPay Flow: Embedded Finance & AI Business Advisor**. Strategi ini menggunakan Pendekatan Dua Jalur (Dual-Channel Framework) untuk menghapus kerumitan teknologi di warung mikro tradisional, sekaligus membuka akses data pada usaha menengah modern tanpa membebani anggaran belanja perusahaan.
 
 ---
 
-### 2.2 Nilai Tambah Ekosistem (Core Value Proposition)
+### Dua Jalur Masuk Aplikasi
 
-*   **Instant Zero-Cost Settlement (Likuiditas 0 Detik)**: Hasil penjualan nontunai langsung dicairkan ke rekening Bank Saqu dalam 0 detik tanpa biaya admin penarikan (`Rp0 Admin Fee`), menjaga arus kas harian pedagang untuk belanja esok subuh.
-*   **Penasihat Bisnis Pintar (AI Business Advisor)**: Mengonversi data transaksi menjadi wawasan prediktif sederhana lewat push-notification mingguan:
-    > *"Halo Bos Warteg Mulya, untung bersihmu naik 12% minggu ini! Menu telur balado menyumbang margin terbesar. Berdasarkan tren Bojongsoang, harga komoditas telur diprediksi naik besok pagi. Yuk, amankan stokmu sekarang!"*
-*   **Pembiayaan Berbasis Pendapatan (Revenue-Based Financing)**: Penyaluran modal FIFGROUP tanpa bunga flat bulanan yang menakutkan bagi UMKM. Cicilan dibayarkan melalui skema potong otomatis dinamis (misal 3%) dari setiap transaksi QRIS harian. Jika warung sepi atau tutup, potongan otomatis menjadi Rp0 sehingga menekan risiko *Non-Performing Loan* (NPL).
-*   **Subsidi Biaya Operasional Berkelanjutan (Closed-Loop Cost Subsidy)**: Poin dari transaksi AstraPay dikonversi langsung menjadi:
-    *   **Subsidi Energi**: Token listrik gratis untuk menekan biaya tetap bulanan toko.
-    *   **Subsidi Armada (AHASS)**: Oli gratis dan perawatan servis bergaransi di jaringan AHASS untuk motor operasional belanja bahan baku merchant.
+#### Jalur Pertama: Aplikasi AstraPay Merchant (Untuk UMKM Mikro Tradisional)
 
----
+Jalur ini dirancang khusus untuk menghilangkan ketakutan terhadap aplikasi yang rumit pada pemilik usaha mikro.
 
-## BAB 3: TARGET USER & VALUE PROPOSITION CANVAS
+1. **Pendaftaran Kilat via Agen (Zero-Friction Onboarding):** Pemilik warung tidak perlu mendaftar sendiri atau mengisi formulir yang rumit. Agen lapangan Astra Financial yang berada di wilayah tersebut akan membantu mendaftarkan merchant menggunakan aplikasi internal dengan fitur membaca KTP otomatis (OCR). QRIS resmi langsung aktif dan ditempel di tempat dalam waktu kurang dari 5 menit. Strategi ini menghemat biaya perusahaan hingga Rp0 karena tidak memiliki ketergantungan pada vendor API pihak ketiga.
 
-### 3.1 Profil Target User (User Personas)
+2. **Tombol Suara Melayang (Astra-Voice Floating Widget):** Fitur ini memanfaatkan HP Android yang sudah dimiliki pemilik usaha. Aplikasi AstraPay Merchant akan memunculkan tombol mikrofon melayang di layar ponsel. Saat warung ramai, pemilik usaha cukup mengetuk tombol tersebut satu kali tanpa membuka aplikasi, lalu berbicara normal:
+   > *"Astra, paket ayam telur dadar es teh, 22 ribu cash, uangnya 50 ribu."*
+   
+   Sistem otomatis mencatat transaksi dan mengeluarkan suara konfirmasi:
+   > *"Dicatat Bos, kembalian 28 ribu."*
+   
+   Tangan pedagang tetap bersih tanpa harus menyentuh layar HP.
 
-```carousel
-### 👵 Persona Tradisional (Ibu Siti)
-*   **Profil**: Pemilik Warteg tradisional (Warteg Mulya) di Bojongsoang. Mengelola warung sendirian dibantu keluarga.
-*   **Karakteristik**: Berusia 48 tahun, gaptek, mengutamakan kecepatan transaksi fisik di jam sibuk makan siang mahasiswa.
-*   **Hambatan Utama**: Takut uang modal habis terpakai kebutuhan harian dan malas mengetik di aplikasi kasir yang ribet.
-*   **Solusi**: Aplikasi AstraPay Merchant + Fitur Suara (Astra-Voice) + Rekening Bisnis Bank Saqu.
+3. **QRIS Resmi dan Pemisahan Uang Otomatis:** Kami menyediakan QRIS resmi AstraPay untuk warung seperti Warung Padang Mahkota. Pelanggan tinggal memindai secara gratis, sehingga mengeliminasi biaya admin transfer manual sebesar Rp2.500. Uang hasil penjualan digital akan otomatis dipisahkan dari dompet pribadi pemilik dan langsung masuk ke rekening bisnis di Bank Saqu (bank digital milik Astra).
 
-<!-- slide -->
+#### Jalur Kedua: AstraPay Flow-SDK (Untuk UMKM Menengah Modern)
 
-### 🧑 Persona Modern (Mas Budi)
-*   **Profil**: Pemilik Kafe (Rolun Coffee) di dekat Universitas Telkom.
-*   **Karakteristik**: Berusia 28 tahun, melek teknologi, telah menggunakan aplikasi POS modern (Majoo) dan QRIS untuk operasional bisnis.
-*   **Hambatan Utama**: Data transaksi yang tumpah ruah terisolasi di server POS pihak ketiga sehingga tidak bisa dijadikan jaminan untuk meminjam modal pembukaan cabang baru.
-*   **Solusi**: Integrasi AstraPay Flow-SDK ke POS eksis untuk scoring kredit instan oleh FIFGROUP.
+Jalur ini ditujukan untuk usaha modern seperti Rolun Coffee, Diagram Coffee, dan GROI yang sudah memiliki sistem kasir digital (Point of Sale / POS) pihak ketiga seperti Moka POS, Majoo, Olsera, atau Pawoon.
 
-<!-- slide -->
+1. **Integrasi Sistem Langsung (Embedded Finance via SDK):** AstraPay tidak membangun aplikasi kasir baru untuk menantang platform yang sudah ada. Sebaliknya, kami menyediakan Software Development Kit (SDK) ringan yang langsung ditanamkan ke dalam sistem kasir eksis milik merchant.
 
-### 👨 Persona Transisi (Pak Andi)
-*   **Profil**: Pemilik kedai Jus Buah (Jus BMC).
-*   **Karakteristik**: Berusia 35 tahun, menggunakan satu platform kasir sederhana tetapi merasa terkunci oleh satu ekosistem e-wallet karena tingginya biaya admin inter-koneksi.
-*   **Hambatan Utama**: Sensitif terhadap biaya admin penarikan dana harian dan ingin memperluas jangkauan alat pembayaran nontunai tanpa ribet.
-*   **Solusi**: Fitur Instant Zero-Cost Settlement (0 Detik) ke Bank Saqu + Subsidi Operasional AHASS.
-```
+2. **Jembatan Data QRIS CPM (Customer Presented Mode):** Saat kasir memindai kode QR dari HP pelanggan untuk mempercepat antrean, SDK kita bertindak sebagai jembatan data. Data transaksi harian dan jam sibuk (peak hours) langsung terekam secara real-time. Data yang semula terkunci di pihak ketiga kini mengalir aman ke sistem AstraPay untuk diubah menjadi penilaian kelayakan kredit otomatis.
 
 ---
 
-### 3.2 Value Proposition Canvas (VPC)
+### Nilai Tambah Ekosistem Pasca-Integrasi (Core Value Proposition)
 
-| **Customer Profile** | **AstraPay Flow Solution (Value Map)** |
+Setelah data transaksi dari Jalur 1 dan Jalur 2 masuk ke sistem AstraPay Flow, merchant akan mendapatkan empat keuntungan utama:
+
+1. **Instant Zero-Cost Settlement (Likuiditas Tanpa Batas):** Seluruh dana transaksi non-tunai yang masuk melalui QRIS resmi AstraPay akan divalidasi dan dicairkan ke dalam rekening bisnis merchant di Bank Saqu (bank digital resmi besutan Astra Group) dalam waktu **0 Detik** tanpa dikenakan biaya administrasi penarikan modal (Rp0 Admin). Langkah ini mengamankan rantai pasok operasional harian merchant agar dapat langsung mencairkan dana untuk berbelanja bahan baku segar di pasar subuh.
+
+2. **Penasihat Bisnis Pintar (AI Business Advisor):** Mengonversi tumpukan data transaksi akuntansi yang rumit menjadi ringkasan wawasan performa (descriptive-to-predictive insights) yang disajikan secara visual dan sederhana. Setiap akhir pekan, AI akan mengirimkan notifikasi interaktif yang sangat ramah awam:
+   > *"Halo Bos, Warteg Mulya, untung bersihmu minggu ini melonjak 12%! Menu telur balado menyumbang margin keuntungan terbesar. Berdasarkan tren pasar Bojongsoang, harga komoditas telur diprediksi naik besok pagi. Yuk, amankan modal jualanmu sekarang!"*
+
+3. **Pembiayaan Fleksibel Berbasis Pendapatan (Revenue-Based Financing):** Solusi ampuh untuk menghapus hambatan psikologis UMKM yang takut terhadap skema kredit konvensional dengan bunga tetap bulanan (flat rate) yang kaku. Melalui integrasi data analitik finansial AstraPay, FIFGROUP dapat menyalurkan pinjaman modal produktif dengan mekanisme pengembalian yang dinamis: potong otomatis berbasis persentase (3%) dari setiap transaksi QRIS harian. Ketika warung atau kafe sedang mengalami penurunan omzet atau tutup karena libur hari raya, nilai nominal potongan harian otomatis menyesuaikan menjadi Rp0, meminimalkan risiko tingkat gagal bayar (Non-Performing Loan / NPL).
+
+4. **Subsidi Biaya Operasional Berkelanjutan (Closed-Loop Cost Subsidy):** Setiap pencapaian target transaksi harian akan menghasilkan poin yang bisa ditukar dengan kebutuhan nyata:
+   - **Subsidi Energi (Token PLN):** Penukaran poin langsung menjadi voucher token listrik gratis untuk menekan pengeluaran utilitas tetap harian warung atau kafe.
+   - **Subsidi Armada (Servis Bergaransi AHASS):** Voucher ganti oli dan perawatan mesin berkala tanpa biaya di seluruh jaringan bengkel resmi AHASS Astra Honda Motor untuk menjaga kondisi motor operasional pedagang yang digunakan untuk kulakan bahan baku ke pasar.
+
+---
+
+### Analisis Kelayakan Arsitektur Finansial (Corporate Viability Analysis)
+
+AstraPay Flow dirancang agar sangat murah bagi perusahaan dengan menekan Biaya Akuisisi Pelanggan (Customer Acquisition Cost / CAC) melalui rumus berikut:
+
+- **Optimalisasi Jaringan Jasa Keuangan Terintegrasi:** Pemanfaatan shared network bersama tim surveyor lapangan FIFGROUP mengeliminasi biaya rekrutmen tim sales baru.
+- **Internalisasi Biaya Marjinal Manufaktur:** Pemberian oli gratis di jaringan AHASS tidak membebankan biaya retail pasar (Rp50.000) kepada Astra, melainkan menggunakan perhitungan Cost of Goods Sold (COGS) internal manufaktur asli Astra yang jauh lebih rendah (kisaran Rp15.000).
+- **Metode Likuiditas Internal (On-Us Network):** Karena uang bergerak di dalam server internal yang sama (dari dompet AstraPay ke Bank Saqu), biaya kliring antar-bank adalah Rp0. Astra justru diuntungkan karena mendapatkan dana simpanan murah (CASA) yang masif dari pembukaan rekening baru para pelaku UMKM.
+
+---
+
+## BAB 3: TARGET USER
+
+Untuk memastikan tingkat keberhasilan implementasi ekosistem AstraPay Flow, penetapan target pengguna tidak didasarkan pada asumsi demografis makro semata. Target pengguna diklasifikasikan menggunakan Metode Segmentasi Berbasis Perilaku Keuangan (Behavior-Driven Financial Segmentation) yang divalidasi langsung melalui studi kasus 10 UMKM di kluster regional Bojongsoang (Kawasan Telkom University). Strategi ini membagi target pengguna menjadi tiga arketipe utama yang memiliki karakteristik, hambatan psikologis, serta jalur penetrasi produk yang berbeda.
+
+---
+
+### User Persona
+
+Kami membagi target pengguna menjadi tiga arketipe berdasarkan profil operasional dan tingkat literasi digital mereka.
+
+**Persona Tradisional** | **Persona Modern** | **Persona Transisi**
+
+> *[Gambar ilustrasi ketiga persona tersimpan di dalam dokumen asli .docx]*
+
+---
+
+### Value Proposition Canvas (VPC)
+
+Tabel berikut menjabarkan bagaimana fitur AstraPay Flow menjawab masalah (pains) dan mewujudkan harapan (gains) setiap pengguna.
+
+| **Bagian** | **Deskripsi Penjelasan** |
 | :--- | :--- |
-| **Customer Jobs**<br>• Mengolah bahan makanan/produk dagang.<br>• Melayani pembeli secepat mungkin.<br>• Mencatat pemasukan harian. | **Product & Service**<br>• Aplikasi AstraPay Merchant.<br>• AstraPay Flow-SDK untuk POS Pihak Ketiga. |
-| **Pains**<br>• Uang pribadi dan usaha tercampur.<br>• Risiko modal terpakai belanja harian.<br>• Administrasi pengajuan modal usaha yang rumit. | **Pain Relievers**<br>• Fitur suara instan (Astra-Voice) untuk input transaksi cepat.<br>• Pemisahan rekening bisnis otomatis di Bank Saqu.<br>• *Automated Credit Scoring* tanpa berkas dokumen kertas. |
-| **Gains**<br>• Memiliki pembukuan usaha yang rapi.<br>• Pencairan omzet cepat untuk modal belanja esok hari.<br>• Biaya operasional usaha yang lebih murah. | **Gain Creators**<br>• *Instant Zero-Cost Settlement* (Likuiditas 0 Detik).<br>• AI Business Advisor (Notifikasi Analitik Prediktif).<br>• Subsidi Listrik dan Servis AHASS berbasis akumulasi poin transaksi. |
+| Customer Jobs | Tugas harian pedagang: memasak, melayani pembeli, dan mencatat transaksi. |
+| Pains (Masalah) | Uang bercampur, risiko modal habis, serta rumitnya administrasi bank. |
+| Gains (Harapan) | Keuangan yang rapi, modal usaha mudah cair, dan operasional murah. |
+| Product & Service | Aplikasi AstraPay Merchant & integrasi sistem kasir (SDK). |
+| Pain Relievers | Fitur suara otomatis (Astra-Voice) dan pencairan dana instan 0 detik. |
+| Gain Creators | Saran bisnis berbasis AI dan subsidi biaya listrik & servis motor (AHASS). |
 
 ---
 
-### 3.3 Matriks Komparasi Target Pengguna
+### Matriks Komparasi Target Pengguna
 
-| Karakteristik | Arketipe 1 (Tradisional) | Arketipe 2 (Modern) | Arketipe 3 (Transisi) |
+Tabel ini merangkum strategi kami dalam merangkul ketiga persona tersebut secara efisien.
+
+| **Karakteristik** | **Arketipe 1 (Tradisional)** | **Arketipe 2 (Modern)** | **Arketipe 3 (Transisi)** |
 | :--- | :--- | :--- | :--- |
-| **Profil Riil** | Ibu Siti (Warteg Mulya) | Mas Budi (Rolun Coffee) | Pak Andi (Jus BMC) |
-| **Hambatan Utama** | Resisten terhadap aplikasi yang rumit | Data transaksi terisolasi di pihak ketiga | Terkunci di satu platform karena biaya admin |
-| **Solusi Utama** | Widget Suara (Astra-Voice) | Injeksi SDK AstraPay Flow | Settlement 0 Detik & Insentif AHASS |
-| **Jalur Onboarding** | Registrasi langsung via Agen Lapangan | Integrasi API/SDK oleh Developer POS | Registrasi Mandiri / Online |
+| Profil Riil | Ibu Siti (Warteg) | Mas Budi (Kafe) | Pak Andi (Jus Buah) |
+| Hambatan Utama | Resisten pada aplikasi rumit | Data transaksi terisolasi | "Terkunci" di satu platform |
+| Solusi Utama | Aplikasi suara (Voice-Widget) | Injeksi sistem (SDK) | Insentif subsidi & kemudahan |
+
+---
+
+### Ringkasan Mengapa Pengguna Akan Beralih
+
+- **Mudah Tanpa Belajar:** Ibu Siti tidak perlu mengetik karena cukup menggunakan perintah suara, sementara Mas Budi tidak perlu mengganti sistem kasir yang sudah ada.
+- **Dana Cair Detik Itu Juga:** Semua pengguna mendapatkan fasilitas pencairan dana ke Bank Saqu secara instan (0 detik) tanpa biaya admin, sehingga modal usaha tidak pernah mengendap.
+- **Untung Nyata di Dunia Fisik:** Selain kemudahan digital, AstraPay Flow memberikan subsidi token listrik dan biaya servis motor (AHASS) yang sangat membantu mengurangi biaya hidup pedagang sehari-hari.
 
 ---
 
 ## BAB 4: BUSINESS IMPACT
 
-```
-                                  ┌──────────────────────────┐
-                                  │   Volume Transaksi Naik  │
-                                  └────────────┬─────────────┘
-                                               │
-                                               ▼
-┌──────────────────────────┐      ┌──────────────────────────┐      ┌──────────────────────────┐
-│  Loyalitas Ekosistem     │◀─────┤  CASA Flywheel (Saqu)    ├─────▶│  Kredit Produktif (FIF)  │
-│  AHASS & Lini Otomotif   │      └──────────────────────────┘      │  NPL Rendah (< 1%)       │
-└──────────────────────────┘                                        └──────────────────────────┘
-```
-
-### 4.1 Dampak Akselerasi UMKM (Sisi Eksternal)
-*   **Menghentikan Financial Ghost Identity**: Pemilik usaha mikro (seperti *Warteg Podom* dan *Warteg Alwi*) bergeser memiliki laporan laba-rugi terstruktur, membuat mereka dinilai layak mendapatkan pendanaan formal.
-*   **Membuka Kunci Data (Unlocking Isolated POS Data)**: Riwayat ribuan transaksi kafe (seperti *Rolun Coffee* dan *GROI*) dikonversi menjadi aset strategis berwujud skor kredit digital siap pakai.
-*   **Mengamankan Likuiditas Arus Kas**: Melalui *Instant Zero-Cost Settlement*, turn-over kas harian meningkat sebesar **30%**, membebaskan merchant dari jeratan rentenir informal.
+Implementasi AstraPay Flow tidak sekadar berfungsi sebagai pembaruan fitur teknis, melainkan sebuah intervensi ekonomi makro yang dirancang untuk menciptakan efek roda gila (Ecosystem Flywheel Effect). Solusi ini mendiversifikasi aliran pendapatan (revenue streams) baru bagi Astra Group sekaligus meningkatkan skala ekonomi (scale of economics) bagi pelaku UMKM di kawasan Telkom University. Dampak bisnis dari proyek ini dianalisis secara berlapis menggunakan matriks nilai dua arah: Dampak Akselerasi UMKM (Sisi Eksternal) dan Dampak Sinergi Lini Bisnis Astra Group (Sisi Internal).
 
 ---
 
-### 4.2 Dampak Sinergi Lini Bisnis Astra Group (Sisi Internal)
-*   **AstraPay**: Mengakuisisi Volume Transaksi Bruto (GTV) masif dari kluster merchant kuliner high-volume di Bojongsoang yang semula dikuasai oleh kompetitor tunggal.
-*   **Bank Saqu**: Mengakumulasi Dana Murah (CASA Flywheel) dengan biaya akuisisi nasabah (CAC) mendekati Rp0 karena setiap merchant diwajibkan membuka rekening penampungan bisnis di Bank Saqu.
-*   **FIFGROUP**: Menyalurkan kredit produktif dengan risiko minimal (NPL < 1%) berkat mekanisme penagihan *Revenue-Based Collection* (potong otomatis harian dari QRIS).
-*   **AHASS (Astra Motor)**: Meningkatkan loyalitas ekosistem fisik. UMKM akan tetap setia merawat kendaraan operasionalnya di AHASS dan menggunakan motor Honda untuk logistik belanja harian karena subsidi oli gratis berbasis transaksi AstraPay.
+### A. Dampak Akselerasi UMKM (External Value Creation)
+
+#### Transformasi UMKM ke Scalable Growth
+
+- **Segmen Mikro Tradisional (Arketipe 1):** Penetrasi fitur Astra-Voice secara instan menghentikan fenomena Financial Ghost Identity. Dengan pembukuan otomatis berbasis suara, 60% merchant mikro (seperti Warteg Podom dan Warteg Alwi) bergeser dari pengelolaan kas yang buta menjadi entitas usaha yang memiliki laporan laba-rugi terstruktur. Pemisahan kas otomatis menjamin modal kerja tidak terpakai untuk keperluan konsumtif rumah tangga.
+- **Segmen Menengah Modern (Arketipe 2):** Integrasi AstraPay Flow-SDK berhasil meruntuhkan dinding isolasi data pada kafe seperti Rolun Coffee, Diagram Coffee, dan GROI. Data transaksi kasir yang semula pasif kini dikonversi menjadi aset strategis berwujud skor kredit formal (credit rating asset) untuk melakukan ekspansi bisnis fisik.
+
+#### Optimasi Arus Kas & Efisiensi Biaya Operasional
+
+- Penghapusan skema transfer manual antar-platform pihak ketiga (seperti kasus Warung Padang Mahkota) menyelamatkan margin konsumen dan merchant dari kebocoran biaya administrasi senilai Rp2.500 per transaksi.
+- Fitur Instant Zero-Cost Settlement (0 Detik) ke Bank Saqu meningkatkan kecepatan perputaran kas harian (cash turnover velocity) sebesar 30%, menghilangkan ketergantungan merchant pada pinjaman informal tengkulak untuk modal belanja subuh.
 
 ---
 
-### 4.3 Analisis Kelayakan Arsitektur Finansial (LTV/CAC Ratio)
-Dalam bisnis digital konvensional, rasio LTV ke CAC seringkali tidak sehat akibat promo bakar uang yang masif. AstraPay Flow menekan biaya akuisisi nasabah (CAC) melalui sinergi ekosistem tertutup:
+### B. Dampak Sinergi Lini Bisnis Astra Group (Internal Corporate Value)
 
-$$\text{Sinergi CAC} = \text{Shared Network FIF Surveyor} + \text{Internal COGS AHASS}$$
+AstraPay Flow dirancang untuk memaksimalkan utilitas aset internal Astra Financial dan Astra Motor melalui mekanisme interkoneksi tertutup (closed-loop value chain):
 
-*   **Pemberian oli gratis di AHASS** tidak membebani harga retail pasar (Rp50.000) kepada Astra, melainkan menggunakan perhitungan *Cost of Goods Sold* (COGS) internal manufaktur asli Astra yang jauh lebih rendah (sekitar Rp15.000).
-*   **On-Us Network Likuiditas**: Aliran dana dari dompet digital ke Bank Saqu diselesaikan secara internal, menekan biaya kliring antar-bank menjadi Rp0.
+**AstraPay: Eksplosi Volume Transaksi dan Retensi Merchant**
+AstraPay berhasil merebut pangsa pasar (market share) retail yang selama ini dikuasai oleh kompetitor tunggal (seperti kasus Jus BMC yang terunci di GoPay Merchant). Integrasi SDK pada POS pihak ketiga (APMK/NOTAIN) membuka akses instan terhadap Volume Transaksi Bruto (Gross Transaction Value atau GTV) bernilai miliaran rupiah dari sektor high-volume merchant (kafe urban) yang memiliki frekuensi transaksi sangat padat.
 
----
+**Bank Saqu: Akumulasi Dana Murah (CASA Flywheel)**
+Setiap merchant tradisional maupun modern yang menggunakan sistem AstraPay Flow diwajibkan memiliki rekening bisnis di Bank Saqu sebagai instrumen penampungan dana settlement. Dampak bisnisnya meliputi:
+- Peningkatan signifikan pada rasio Current Account Savings Account (CASA) atau dana murah pihak ketiga bagi bank milik Astra Group.
+- Astra mendapatkan pasokan likuiditas dana segar yang mengendap (float fund) dari puluhan ribu UMKM secara organik dengan biaya akuisisi nasabah (Customer Acquisition Cost / CAC) mendekati Rp0.
 
-## BAB 5: BUSINESS MODEL CANVAS & KPI
+**FIFGROUP: Penetrasi Kredit Produktif Berisiko Rendah (Low-Risk Underwriting)**
+Melalui jembatan data analitik dari AstraPay Flow, FIFGROUP dapat melakukan penyaluran pinjaman modal kerja tanpa dibayangi oleh risiko asimetri informasi.
+- **Mekanisme Revenue-Based Collection (3% split-fee):** Pengembalian pinjaman yang dipotong langsung secara otomatis dari setiap transaksi QRIS harian memastikan kelancaran arus pengembalian modal.
+- **Optimasi Rasio NPL (Non-Performing Loan):** Karena sistem hanya memotong dana ketika merchant menghasilkan omzet (jika sepi otomatis menjadi Rp0), skema ini menekan tingkat gagal bayar finansial hingga di bawah 1%, jauh lebih aman dibanding skema cicilan tetap konvensional.
 
-### 5.1 Business Model Canvas (BMC)
-
-| **Key Partners** | **Key Activities** | **Value Propositions** | **Customer Relationships** | **Customer Segments** |
-| :--- | :--- | :--- | :--- | :--- |
-| • **AstraPay** (Payment Platform)<br>• **Bank Saqu** (CASA Provider)<br>• **FIFGROUP** (Credit Engine)<br>• **AHASS & Astra Motor** (Subsidy Partner)<br>• **Developer POS Pihak Ketiga** (Notain, Majoo, dsb) | • Integrasi & Pemeliharaan SDK.<br>• Pengembangan Fitur Suara (Astra-Voice AI).<br>• Manajemen Distribusi Poin & Subsidi Operasional. | **Untuk UMKM Mikro**: Pencatatan keuangan bebas ribet menggunakan suara, pemisahan kas harian instan.<br><br>**Untuk UMKM Modern**: Integrasi kasir eksis tanpa ganti sistem, pembukaan skor kredit instan.<br><br>**Untuk Perusahaan**: Akuisisi data alternatif, dana murah CASA, & NPL kredit produktif rendah. | • *Self-Service App Platform* untuk merchant modern.<br>• *Personal Assistance* (Agen Lapangan) untuk onboarding merchant tradisional.<br>• AI Advisor Push-Notification interaktif mingguan. | • **Arketipe 1**: Pedagang Mikro Tradisional (Warteg, kelontong, dsb).<br>• **Arketipe 2**: Pemilik Usaha Menengah Modern (Kafe, laundry modern, dsb).<br>• **Arketipe 3**: Pedagang Transisi (Jus buah, warung kopi kecil). |
-| | **Key Resources** | | **Channels** | |
-| | • Infrastruktur SDK & AI Voice API.<br>• Jaringan Surveyor Lapangan FIFGROUP.<br>• Jaringan Bengkel Resmi AHASS. | | • Aplikasi AstraPay Merchant & Customer.<br>• Dashboard POS Pihak Ketiga terintegrasi SDK.<br>• Jaringan Agen Lapangan Astra Financial. | |
-| **Cost Structure** | **Revenue Streams** |
-| • Biaya operasional pemeliharaan API & AI Voice Recognition.<br>• Biaya subsidi token listrik dan oli/servis motor AHASS (berbasis COGS internal).<br>• Biaya insentif komisi integrasi developer POS pihak ketiga. | • Pendapatan bunga/bagi-hasil dari penyaluran kredit produktif FIFGROUP (Revenue-Based Financing).<br>• Spread margin/bunga dari pengendapan dana CASA merchant di Bank Saqu.<br>• Biaya administrasi minimal (MDR) dari transaksi QRIS merchant segmen menengah. |
+**AHASS & Lini Otomotif Astra: Kunci Loyalitas Ekosistem Fisik**
+Skema penukaran poin transaksi menjadi subsidi biaya servis dan ganti oli di jaringan AHASS berfungsi sebagai strategi lock-in konsumen. Pemilik warung dipastikan akan mempertahankan penggunaan sepeda motor Honda untuk operasional bisnis mereka karena biaya perawatan kendaraan dialihkan sepenuhnya menjadi nol melalui performa penjualan QRIS AstraPay mereka. Ini menciptakan siklus penjualan suku cadang asli Astra yang berkelanjutan di sektor riil.
 
 ---
 
-### 5.2 SMART KPIs
+### C. Proyeksi Metrik Finansial Sinergi Ekosistem
 
-Berikut adalah 3 KPI Utama untuk melacak tingkat keberhasilan implementasi program AstraPay Flow:
+Keunggulan mutlak dari proposal AstraPay Flow terletak pada efisiensi matematika bisnisnya. Dalam bisnis digital konvensional, rasio antara Lifetime Value (LTV) dan Customer Acquisition Cost (CAC) sering kali tidak sehat akibat biaya promosi yang masif. AstraPay Flow membalikkan kondisi tersebut melalui kalkulasi berikut:
 
-| KPI | S (Specific) | M (Measurable) | A (Achievable) | R (Relevant) | T (Time-Bound) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Aktivasi Merchant Mikro** | Peningkatan pendaftaran merchant mikro tradisional baru di kluster Bojongsoang. | Target minimal **50 merchant baru** terdaftar dan aktif menggunakan QRIS AstraPay. | Dapat dicapai karena didukung oleh tim surveyor lapangan regional FIFGROUP yang siap bergerak. | Sangat relevan untuk meningkatkan volume transaksi retail AstraPay dan dana simpanan Bank Saqu. | Harus dicapai dalam waktu **6 bulan pertama** peluncuran program. |
-| **Penurunan Tingkat NPL Kredit** | Menjaga tingkat kegagalan bayar kredit produktif UMKM yang disalurkan FIFGROUP. | Tingkat NPL diproyeksikan tertahan **di bawah 1.0%** dari total penyaluran dana. | Dapat dicapai berkat skema bagi hasil dinamis harian (3% cut) otomatis dari pendapatan QRIS. | Relevan untuk membuktikan keandalan sistem *Alternative Credit Scoring* dan mitigasi risiko. | Diukur secara berkelanjutan setiap kuartal (**Quarterly Evaluation**). |
-| **Integrasi POS Pihak Ketiga** | Sukses melakukan injeksi SDK AstraPay Flow pada aplikasi kasir POS mitra. | Minimal **3 Platform POS besar** (misal Notain, Majoo, Olsera) resmi terintegrasi SDK. | Dapat dicapai dengan insentif komisi dan peningkatan transaksi bagi developer POS. | Relevan untuk menjaring Volume Transaksi Bruto (GTV) segmen modern (kafe urban). | Harus diselesaikan dalam waktu **12 bulan pertama** (Rencana Fase 1). |
+> *[Tabel Proyeksi Metrik Finansial Sinergi Ekosistem tersimpan di dalam dokumen asli .docx]*
 
----
+> *[Tabel Analisis Potensi Pasar (TAM-SAM-SOM Model) tersimpan di dalam dokumen asli .docx]*
 
-### 5.3 Tabel Area Fokus & Diskusi Aliran Pendapatan (*Revenue Streams*)
+> *[Tabel Keuntungan Astra Group per User dan Total SOM per Tahun tersimpan di dalam dokumen asli .docx]*
 
-| **Area Fokus** | **Pertanyaan Diskusi Utama** | **Output yang Diharapkan** |
-| :--- | :--- | :--- |
-| **1. Pengendapan Likuiditas (CASA)** | Bagaimana cara menstimulasi merchant agar tetap menyimpan dana usahanya di rekening Bank Saqu dibandingkan menariknya ke bank konvensional lain? | Pemberian tingkat suku bunga bisnis berjangka harian yang kompetitif, serta kemudahan transfer keluar gratis bersyarat setelah volume saldo rata-rata bulanan terpenuhi. |
-| **2. Bagi Hasil Kredit Produktif (RBF)** | Berapa persentase potong harian (*Revenue-Based Sharing*) yang paling ideal agar tidak membebani cashflow harian warung mikro tradisional di saat sepi? | Penentuan batas rentang potongan harian yang dinamis antara **1% s.d. 5%** tergantung kategori margin bisnis merchant (ditentukan otomatis oleh AI Advisor). |
-| **3. Monetisasi Data Kasir (SDK)** | Apakah developer POS pihak ketiga akan bersedia mengintegrasikan SDK secara gratis, ataukah diperlukan skema bagi hasil biaya transaksi (*transaction fee-split*)? | Penyusunan draf kerja sama bagi hasil senilai **0.1% s.d. 0.2%** dari MDR transaksi bagi developer POS sebagai insentif integrasi sistem yang berkelanjutan. |
-| **4. Konversi Poin ke AHASS/Listrik** | Bagaimana menghitung nilai konversi transaksi QRIS ke dalam poin agar biaya subsidi fisik (AHASS/Listrik) tetap tertutup oleh laba dari RBF dan CASA? | Rumus simulasi rasio penukaran poin di mana 1 poin bernilai Rp10, yang baru bisa ditukarkan setelah merchant mencapai minimal **50 transaksi digital** per bulan. |
+> *[Tabel Roadmap Implementasi Strategis Ekosistem (Rencana 3 Tahun) tersimpan di dalam dokumen asli .docx]*
+
+Mengingat nilai CAC ditekan hingga titik terendah melalui pemanfaatan sinergi jaringan lapangan shared network bersama tim surveyor FIFGROUP yang sudah eksis, maka nilai rasio profitabilitas ekosistem akan meningkat secara signifikan.
+
+Melalui proyeksi dampak bisnis yang terukur dan terintegrasi ini, AstraPay Flow membuktikan dirinya bukan sekadar aplikasi pencatatan keuangan biasa. Ini adalah sebuah **arsitektur bisnis strategis** yang menguntungkan para pelaku UMKM secara nyata di lapangan, sekaligus mengamankan dominasi ekosistem ekonomi digital dan fisik milik Astra Group secara berkelanjutan.
