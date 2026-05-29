@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    AndroidManifest.xml adalah file konfigurasi utama untuk aplikasi Android.
+    Setiap aplikasi Android wajib memiliki file ini di root folder source code (src/main/).
+-->
+<manifest xmlns:android="http://schemas.server.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aplikasisaya.belajar">
+
+    <!-- 1. Izin Akses (Permissions) 
+         Mendeklarasikan izin yang diperlukan aplikasi untuk mengakses fitur sistem atau data pengguna.
+    -->
+    <!-- Izin untuk mengakses internet (penting untuk aplikasi pembayaran seperti AstraPay) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!-- Izin untuk membaca status jaringan (mengecek koneksi aktif atau tidak) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- Izin menggunakan kamera (contoh: untuk memindai QRIS/Barcode) -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 2. Konfigurasi Aplikasi (Application) 
+         Mendefinisikan properti global aplikasi seperti ikon, label, tema, dan komponen di dalamnya.
+    -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Aplikasi Saya"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiSaya"
+        tools:targetApi="34">
+
+        <!-- 3. Komponen Aktivitas (Activity)
+             Setiap layar UI di Android harus didaftarkan sebagai Activity di sini.
+        -->
+        <!-- Halaman Utama / Launcher Activity 
+             Layar pertama yang muncul saat ikon aplikasi di-klik di HP.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Halaman Utama">
+            <intent-filter>
+                <!-- Kategori LAUNCHER memberi tahu sistem bahwa ini adalah pintu masuk utama aplikasi -->
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Halaman Kedua (Contoh Halaman Transaksi/Pembayaran) -->
+        <activity
+            android:name=".PembayaranActivity"
+            android:exported="false"
+            android:label="Transaksi Pembayaran" />
+
+        <!-- 4. Layanan Latar Belakang (Service)
+             Untuk menjalankan proses di latar belakang tanpa UI (misal: sinkronisasi data transaksi)
+        -->
+        <service
+            android:name=".services.SinkronisasiDataService"
+            android:exported="false" />
+
+        <!-- 5. Penerima Pesan Sistem (Broadcast Receiver)
+             Menerima sinyal dari sistem Android (misal: mendeteksi saat baterai lemah atau internet putus)
+        -->
+        <receiver
+            android:name=".receivers.KoneksiReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
