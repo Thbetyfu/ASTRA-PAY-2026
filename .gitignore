@@ -14,3 +14,7 @@ desktop.ini
 
 # Office temporary files
 ~$*
+
+# Large APK files
+APK/
+

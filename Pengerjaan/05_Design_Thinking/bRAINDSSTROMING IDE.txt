@@ -1,0 +1,62 @@
+perbaikin Penulisannya agar menjadi lebih gampang di pahami, lebih perbanyak gamabr di bandingkan tulisan
+
+
+Tambahkan EPTY MAP
+Instruksi:
+
+Isi setiap kuadran (says, thinks, does, feels).
+Fokus pada situasi nyata, masalah yang sering muncul, dan emosi positif dan negatif.
+
+TAMBAHKAN POBLEM STATEMENT
+Instruksi:
+
+Pastikan problem statement berangkat dari empathy map, fokus pada kebutuhan user, dan tidak mengandung fitur atau produk spesifik.
+Gunakan format “[User] membutuhkan [Need] karena [Insight]”.
+
+tambahkan user persona
+Instruksi:
+
+Gunakan empathy map yang sudah dibuat pada langkah sebelumnya.
+Buat minimal 1 gambaran target user. 
+membuat profil persona yang mencakup background dan objektif solusi berdasarkan gambaran target user yang sudah disepakati.
+Pastikan persona spesifik, berdasarkan logika atau data yang tersedia, dan konsisten antarbagian.
+
+TAMBAHKAN VALUE PROPOSITION CANVAS
+Instruksi:
+
+Gunakan user persona, empathy map, dan POV dari praktik sebelumnya sebagai acuan utama.
+Isi setiap bagian dengan kalimat singkat dan spesifik.
+Fokus terlebih dulu pada bagian customer profile (customer jobs, pains, dan gains).
+Setelah itu, lanjutkan ke bagian value map (products and services, pain relievers, dan gain creators).
+
+TAMBAHKAN KPI
+Instruksi:
+
+Tulis 1-3 KPI utama yang paling mewakili dampak yang direncanakan pada Impact Canvas.
+Untuk setiap KPI, jawab aspek-aspek SMART-nya.
+Cek KPI yang dibuat oleh teman kelompok Anda, diskusikan dan beri komentar.
+SMART ITU ADALAH 
+S (SPECIFIC)
+M (MEASURABLE)
+A (ACHIEVEABLE)
+R (RELEVANT)
+T (TIME-BOUND)
+
+TAMBAHKAN REVENUE STREAMS DISCUSSION
+BUAT DALAM BENTUK TABLE DIMANA TABLENYA MENCAKUP, AREA FOKUS, PERTAYAAN DISKUSI, OUTPUT YANG DI HARAPKANLLAU DI BUATKAN TABLENYA KAYAK GIMANA
+
+TAMBAHKAN BMC NYA UNTUK SAYA
+Instruksi:
+
+Semua isian harus mengacu pada User Persona, POV, Value Proposition Canvas, Impact Canvas, dan KPI.
+Urutan pengisian (tidak wajib, tapi disarankan):
+Customer Segments
+Value Propositions
+Channels
+Customer Relationships
+Key Activities
+Key Resources
+Key Partners
+Cost Structure
+Revenue Streams
+
