@@ -198,15 +198,29 @@ flowchart TD
 
 ---
 
-## 4.6 Analisis Kelayakan Finansial Astra Group
+## 4.6 Business Model Canvas (BMC)
 
-### 4.6.1 Konteks Kapasitas Keuangan Astra (Annual Report 2024)
+AstraPay Flow dirancang untuk menjadi ekosistem yang terintegrasi. Berikut adalah visualisasi model bisnis dalam bentuk **Business Model Canvas (BMC)**:
+
+| **Key Partners (Mitra Utama)** | **Key Activities (Aktivitas Utama)** | **Value Propositions (Proposisi Nilai)** | **Customer Relationships (Hubungan)** | **Customer Segments (Segmen Pelanggan)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Astra Financial:**<br>• AstraPay, Bank Saqu, FIFGROUP<br>**2. Ekosistem Astra:**<br>• Bengkel AHASS & AHM<br>**3. Google Cloud Indonesia:**<br>• Vertex AI & Cloud Tech<br>**4. Biro Kredit:**<br>• PT PEFINDO (IdScore)<br>**5. Vendor POS Kasir:**<br>• Majoo, Notain, dll. | **1. Pengembangan Tech:**<br>• POS-SDK & Voice Widget<br>**2. Akuisisi & Onboarding:**<br>• Agen FIFGROUP di lapangan<br>**3. Risk Management:**<br>• Alternatif scoring Vertex AI<br>• AI-Driven EWS (NPL Control) | **Bagi UMKM Mikro Tradisional:**<br>• Hands-free Voice Widget<br>• Pemisahan kas otomatis<br>• Kredit DANASTRA data alternatif<br>**Bagi UMKM Menengah:**<br>• Konversi data POS jadi kredit skor<br>• Pinjaman FINATRA cepat<br>**Bagi UMKM Platform-Trapped:**<br>• Saku Kredit tanpa agunan<br>• Insentif servis AHASS & PLN<br>• Split-settlement harian | **1. Pendekatan Lapangan:**<br>• Bimbingan langsung agen FIFGROUP<br>**2. Proteksi Finansial:**<br>• EWS & restrukturisasi cicilan harian otomatis<br>**3. Kemitraan Tumbuh:**<br>• Rekomendasi supply chain & harga | **1. Arketipe 1 (Analog):**<br>• UMKM mikro tradisional unbanked. Resistensi input HP.<br>**2. Arketipe 2 (Modern):**<br>• UMKM menengah dengan data POS terisolasi.<br>**3. Arketipe 3 (Platform-Trapped):**<br>• UMKM mikro digital tanpa agunan fisik, terkunci kompetitor. |
+| | **Key Resources (Sumber Daya)** | | **Channels (Saluran)** | |
+| | • Lisensi QRIS & App AstraPay<br>• Rekening CASA Bank Saqu<br>• Jaringan agen & kantor FIFGROUP<br>• Model AI Google Cloud Vertex AI<br>• Astra Financial Data Layer | | • App AstraPay & Bank Saqu<br>• POS-SDK (Aplikasi pihak ketiga)<br>• Agen lapangan FIFGROUP | |
+| **Cost Structure (Struktur Biaya)** | | | **Revenue Streams (Arus Pendapatan)** | |
+| • **CAPEX Awal:** Rp600 juta (widget suara & SDK).<br>• **OPEX Tahunan:** Rp500 juta (API AI, cloud, & training).<br>• **Acquisition Cost:** Oli AHASS (COGS) & token PLN. | | | • **MDR QRIS (AstraPay):** 0,3% transaksi > Rp500.000.<br>• **Margin Bunga (FIFGROUP):** Bunga DANASTRA (2,5%/bln) & FINATRA (1,17%/bln).<br>• **Bunga Unsecured (Bank Saqu):** Bunga Saku Kredit (1,5%/bln).<br>• **NIM CASA Float (Bank Saqu):** Saldo mengendap harian. |
+
+---
+
+## 4.7 Analisis Kelayakan Finansial Astra Group
+
+### 4.7.1 Konteks Kapasitas Keuangan Astra (Annual Report 2024)
 * **Pendapatan Bersih Konsolidasian:** Rp330,92 triliun (+5% YoY).
 * **Laba Bersih Konsolidasian:** Rp34,05 triliun (+1% YoY).
 * **Laba Bersih Divisi Jasa Keuangan:** Rp8,4 triliun (+6% YoY).
 * **Portofolio Aktif FIFGROUP:** Rp45,9 triliun (+8,5% YoY).
 
-### 4.6.2 Struktur Anggaran Biaya Implementasi (CAPEX & OPEX)
+### 4.7.2 Struktur Anggaran Biaya Implementasi (CAPEX & OPEX)
 Untuk meluncurkan dan mengoperasikan sistem AstraPay Flow, dibutuhkan anggaran investasi yang minimal dengan efisiensi tinggi karena pemanfaatan infrastruktur internal Astra Group yang sudah matang:
 
 1. **Capital Expenditure (CAPEX) — Biaya Pengembangan Awal:**
@@ -226,9 +240,9 @@ Untuk meluncurkan dan mengoperasikan sistem AstraPay Flow, dibutuhkan anggaran i
 
 ---
 
-## 4.7 Roadmap Implementasi & Proyeksi Finansial Multi-Tahun
+## 4.8 Roadmap Implementasi & Proyeksi Finansial Multi-Tahun
 
-### 4.7.1 Roadmap Strategis (3 Tahun)
+### 4.8.1 Roadmap Strategis (3 Tahun)
 
 | Fase | Periode | Target | Fokus Operasional |
 |---|---|---|---|
@@ -237,7 +251,7 @@ Untuk meluncurkan dan mengoperasikan sistem AstraPay Flow, dibutuhkan anggaran i
 | **Fase 2 — Regional** | Tahun 2 | 100.000 merchant | Membuka API SDK secara publik untuk vendor POS skala regional. |
 | **Fase 3 — Nasional** | Tahun 3 | 500.000 merchant | Ekspansi jaringan merchant ke luar Jawa dan pasar tradisional skala nasional. |
 
-### 4.7.2 Proyeksi Finansial Ekosistem (Tahun 1 s.d. Tahun 3)
+### 4.8.2 Proyeksi Finansial Ekosistem (Tahun 1 s.d. Tahun 3)
 
 Berikut adalah proyeksi keuangan kotor, alokasi biaya, dan profitabilitas ekosistem AstraPay Flow dalam rentang waktu tiga tahun:
 
@@ -256,7 +270,7 @@ Berikut adalah proyeksi keuangan kotor, alokasi biaya, dan profitabilitas ekosis
 
 ---
 
-## 4.8 Dampak Makro: Kontribusi terhadap Inklusi Keuangan Nasional
+## 4.9 Dampak Makro: Kontribusi terhadap Inklusi Keuangan Nasional
 
 Target inklusi keuangan pemerintah Indonesia sebesar **90%** masih menyisakan gap **14,98%** (SNLIK 2024: 75,02%). 
 
